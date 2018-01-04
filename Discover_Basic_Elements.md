@@ -1,6 +1,6 @@
 
 
-[原文链接](http://doc.babylonjs.com/babylon101/first)
+### [原文链接](http://doc.babylonjs.com/babylon101/first)
 
 目录：
 
@@ -10,13 +10,14 @@
       2. 球状
       3. 平面
       4. 场地
-   2. 你自己的HTML
-   3. 笔记
-   4. 要
-   5. s
-   6. 
+   2. Face Colors or UV
+   3. Updatable
+   4. Side Orientation
+   5. Front and Back UV
+   6. Coming Soon
 2. 下一部分
 3. 扩展阅读
+    1. 基础-L1
 
 ### 设置形状 101
 
