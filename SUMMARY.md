@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Steps](chapter1.md)
-* [Discover Basic Elements](discover-basic-elements.md)
-
+* [First Steps](First_Steps.md)
+* [Discover Basic Elements](Discover_Basic_Elements.md)
+* [Parametric Shapes](Parametric_Shapes.md)
