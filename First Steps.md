@@ -1,4 +1,6 @@
-# 原文链接 [http://doc.babylonjs.com/babylon101/first](http://doc.babylonjs.com/babylon101/first)
+
+
+### [原文链接](http://doc.babylonjs.com/babylon101/first)
 
 目录：
 
@@ -44,7 +46,9 @@ var createScene = function() {
 
 你需要关心的一切仅仅是场景内的东西。
 
-以上代码的场景例子[http://www.babylonjs-playground.com/\#WG9OY\#1](http://www.babylonjs-playground.com/#WG9OY#1)
+[以上代码的场景例子](http://www.babylonjs-playground.com/\#WG9OY\#1)
+
+
 
 #### 你自己的HTML
 
@@ -142,33 +146,21 @@ var createScene = function() {
 
 ### 下一部分
 
-现在你已经准备好进行更深入的学习如何来创建更多形状，比如球体、柱状体、盒状等。阅读Set Shapes [http://doc.babylonjs.com/babylon101/discover\_basic\_elements](http://doc.babylonjs.com/babylon101/discover_basic_elements)
+现在你已经准备好进行更深入的学习如何来创建更多形状，比如球体、柱状体、盒状等。阅读[Set Shapes](http://doc.babylonjs.com/babylon101/discover_basic_elements)
 
 ### 扩展阅读
 
-BabylonJS Forum
+[BabylonJS Forum](http://www.html5gamedevs.com/forum/16-babylonjs/ "BabylonJS Forum")
 
-[http://www.html5gamedevs.com/forum/16-babylonjs/](http://www.html5gamedevs.com/forum/16-babylonjs/ "BabylonJS Forum")
-
-PEP and hand.js
-
-[http://www.html5gamedevs.com/topic/22474-how-does-babylonjs-get-pointer-events-working/\#comment-127993](http://www.html5gamedevs.com/topic/22474-how-does-babylonjs-get-pointer-events-working/#comment-127993)
+[PEP and hand.js](http://www.html5gamedevs.com/topic/22474-how-does-babylonjs-get-pointer-events-working/#comment-127993)
 
 ### 有用的扩展链接
 
-BabylonJS Main Website
+[BabylonJS Main Website](http://www.babylonjs.com/)
 
-[http://www.babylonjs.com/](http://www.babylonjs.com/)
+[BabylonJS Playground](http://www.babylonjs-playground.com/)
 
-BabylonJS Playground
+[PEP Github](https://github.com/jquery/PEP)
 
-[http://www.babylonjs-playground.com/](http://www.babylonjs-playground.com/)
-
-PEP Github
-
-[https://github.com/jquery/PEP](https://github.com/jquery/PEP)
-
-hand.js Github
-
-[https://github.com/Deltakosh/handjs](https://github.com/Deltakosh/handjs)
+[hand.js Github](https://github.com/Deltakosh/handjs)
 
