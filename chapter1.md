@@ -3,7 +3,7 @@
 目录：
 
 1. 第一步
-   1. the Playground
+   1. 场景（the Playground）
    2. 你自己的HTML
       1. HTML模板
    3. 笔记
@@ -15,7 +15,7 @@
 
 Babylon.JS是一个用来创建web 3D环境的非常棒的库，它使用的是HTML5的canvas元素。
 
-#### 场景The Playground）
+#### 场景（The Playground）
 
 有一种超级快捷方便的方式来创建你自己的场景。创建一个3D场景非常简单，相机、灯光和3D状物体，就完成了。
 
@@ -25,22 +25,40 @@ The Playground 就是网页，它包含所有你构建3D场景所而创造的所
 var createScene = function() {
     // 创建情景空间
     var scene = new BABYLON.Scene(engine);
-    
+
     //为情景内添加相机并装到canvas上
     var camera = new BABYLON.ArcRotateCamera("Camera", Math.PI/2, MATH.PI/2, 2, BABYLON.Vector3.Zero(), scene);
     camera.attachControl(canvas, true);
-    
+
     //为情景添加灯光
     var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
     var light2 = new BABYLON.PointLight("light2", new BABYLON.Vector3(0, 1, -1), scene);
-    
+
     //这是你创建并操作网眼的地方
     var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {}, scene);
-    
+
     return scene;
-    
+
 };
 ```
+
+你需要关心的一切仅仅是场景内的东西。
+
+以上代码的场景例子[http://www.babylonjs-playground.com/\#WG9OY\#1](http://www.babylonjs-playground.com/#WG9OY#1)
+
+
+
+#### 你自己的HTML
+
+当你自己写html的时候，需要用script标签把创建场景的方法嵌入HTML页面结构。你还要加载Babylon.js的javascrpt代码。另外，如果是在平板电脑或者移动端上使用，BabylyJS会使用点触事件代替鼠标事件，而且
+
+
+
+
+
+
+
+
 
 
 
