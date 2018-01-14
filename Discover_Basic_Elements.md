@@ -99,7 +99,7 @@ var myPlane = BABYLON.MeshBuilder.CreatePlane("myPlane", {width: 5, height: 2}, 
 | sourcePlane | \(_plane_\)source plane (maths) the mesh will be transformed to | null |
 
 
-[平面例子](https://www.babylonjs-playground.com/#K6M44R)
+[平面例子](https://www.babylonjs-playground.com/#LXZPJK)
 
 _sourcePlane_是平面里特殊的一种，它提供定位和定向方法。现在假设创建平面时定位使用的方向向量是(0,0,1)。现在你想重新定位到方向向量为(0,-1,1)的位置，那你可以用下面的方式创建一个原始平面：
 

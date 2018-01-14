@@ -21,7 +21,7 @@ Babylon.JS是一个用来创建web 3D环境的非常棒的库，它使用的是H
 
 有一种超级快捷方便的方式来创建你自己的场景。创建一个3D场景非常简单，相机、灯光和3D状物体，就完成了。
 
-The Playground 就是网页，它包含所有你构建3D场景所而创造的所有元素或者是已经存在的元素。下面是一个在场景内创建情景模板：
+你可以在[The Playground](http://www.babylonjs-playground.com/)这个网址上构建你自己的场景，你也可以在这个网站上查看别人构建好的例子。下面是一个在场景内创建情景模板：
 
 ```javascript
 var createScene = function() {
@@ -141,7 +141,7 @@ var createScene = function() {
 
 #### 注释
 
-1. 以上的侄子都用的较新的 MeshBuilder 方法来创建形状。它接受一个可选的对象作为参数，这比旧的方法 BABYLON.Mesh.Create...要好，旧方法是接收一个参数列表作参数。大部分场景是在MeshBuilder出现之前生成的，用的旧方法。
+1. 以上的例子都用的较新的 MeshBuilder 方法来创建形状。它接受一个可选的对象作为参数，这比旧的方法 BABYLON.Mesh.Create...要好，旧方法是接收一个参数列表作参数。大部分场景是在MeshBuilder出现之前生成的，用的旧方法。
 2. 点触事件更推荐用PEP，之前是推荐使用handle.js。两个都能用，但现在已经弃用hand.js。你可能还会在文档里看到hand.js。
 
 ### 下一部分
