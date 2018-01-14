@@ -19,7 +19,7 @@ Babylon.JS是一个用来创建web 3D环境的非常棒的库，它使用的是H
 
 有一种超级快捷方便的方式来构建属于你的场景。创建一个3D场景非常简单，准备好相机、灯光和3D物体，就完成了。
 
- [http://www.babylonjs-playground.com/](http://www.babylonjs-playground.com/ "the playground")就是网页，它包含所有你构建3D场景所而创造的所有元素或者是已经存在的元素。下面是一个在场景内创建情景模板：
+\[the playground\]\(http://www.babylonjs-playground.com/\)就是网页，它包含所有你构建3D场景所而创造的所有元素或者是已经存在的元素。下面是一个在场景内创建情景模板：
 
 ```javascript
 var createScene = function() {
