@@ -1,5 +1,3 @@
-
-
 ### [原文链接](http://doc.babylonjs.com/babylon101/first)
 
 目录：
@@ -19,7 +17,7 @@ Babylon.JS是一个用来创建web 3D环境的非常棒的库，它使用的是H
 
 #### 场景（The Playground）
 
-有一种超级快捷方便的方式来创建你自己的场景。创建一个3D场景非常简单，相机、灯光和3D状物体，就完成了。
+有一种超级快捷方便的方式来构建属于你的场景。创建一个3D场景非常简单，准备好相机、灯光和3D物体，就完成了。
 
 你可以在[The Playground](http://www.babylonjs-playground.com/)这个网址上构建你自己的场景，你也可以在这个网站上查看别人构建好的例子。下面是一个在场景内创建情景模板：
 
@@ -46,17 +44,15 @@ var createScene = function() {
 
 你需要关心的一切仅仅是场景内的东西。
 
-[以上代码的场景例子](http://www.babylonjs-playground.com/\#WG9OY\#1)
-
-
+[以上代码的场景例子](http://www.babylonjs-playground.com/#WG9OY#1)
 
 #### 你自己的HTML
 
-当你自己写html的时候，需要用script标签把创建场景的方法嵌入HTML页面结构。你还要加载Babylon.js的javascrpt代码。如果是在平板电脑或者移动端上使用，BabylyJS会使用点触事件代替鼠标事件，因此，PEP事件环境同样需要加载。
+当你写html的时候，需要用script标签把创建场景的方法嵌入HTML页面结构。你需要先加载Babylon.js的javascrpt代码。如果是在平板电脑或者移动端上使用，BabylyJS会使用点触事件代替鼠标事件，因此，PEP同样需要先加载。
 
-另外，要在body元素内增加一个canvas元素，因为3D情景会在该canvas元素内渲染。在这一切之前需要先加载BabylonJS引擎。
+之后，在body内添加一个canvas元素用来构建3D场景。在这之前需要先创建BabylonJS引擎。
 
-最后，做完这些之后，接下来就是写代码创建自己想要的情况，写代码让引擎循环渲染情景，并且当浏览器窗口大小发生变化时调整情景大小。
+最后，就是写3D情景的相关代码，让引擎循环渲染情景，并且当浏览器窗口大小发生变化时调整情景大小。
 
 ##### HTML模板
 
@@ -125,12 +121,12 @@ var createScene = function() {
                 var scene = createScene(); //调用创建情景方法
 
             engine.runRenderLoop(function () { // 注册一个渲染循环来重复渲染情景
-                    scene.render();
+                scene.render();
             });
 
 
             window.addEventListener("resize", function () { // 监听 浏览器窗口和canvas元素的resize事件
-                    engine.resize();
+                engine.resize();
             });
     </script>
 
@@ -141,7 +137,7 @@ var createScene = function() {
 
 #### 注释
 
-1. 以上的例子都用的较新的 MeshBuilder 方法来创建形状。它接受一个可选的对象作为参数，这比旧的方法 BABYLON.Mesh.Create...要好，旧方法是接收一个参数列表作参数。大部分场景是在MeshBuilder出现之前生成的，用的旧方法。
+1. 以上的例子都用的较新的 `MeshBuilder` 方法来创建形状，。它接受一个可选的变量对象作为参数来设定形状，这比旧的方法 BABYLON.Mesh.Create...要好，旧方法是接收一个参数列表作参数。因为`MeshBuilder`方法是后面出来的新方法，The Playgrounds网站的大部分例子是用的旧方法。
 2. 点触事件更推荐用PEP，之前是推荐使用handle.js。两个都能用，但现在已经弃用hand.js。你可能还会在文档里看到hand.js。
 
 ### 下一部分
